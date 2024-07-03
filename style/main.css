@@ -1,0 +1,192 @@
+
+* {
+    margin: 100;
+    padding: 8;
+    box-sizing: border-box;
+}
+.gallery{
+    display: flex;
+    gap: 1rem;
+    height: 300px;
+    width: 105%;
+}
+.gallery > div{
+    flex: 1;
+    transition: all ;
+}
+.gallery > div:nth-child(1){
+    background: url(save1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.gallery > div:nth-child(2){
+    background: url(save2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.gallery > div:nth-child(3){
+    background: url(save3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.gallery > div:nth-child(4){
+    background: url(save4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.gallery > div:hover{
+    flex: 2;
+}
+
+.body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+.container {
+    max-width: 10px;
+    margin: 10px 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.container img{
+    display: flex;
+    align-items: center;
+    height: 550px;
+    justify-content: center;
+}
+.navbar {
+    background-color: yellow;
+    padding: 10px 0;
+}
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .logo {
+    font-size: 24px;
+    margin-left: 20px;
+}
+.navbar .nav-links {
+    list-style-type: none;
+    display: flex;
+}
+.navbar .nav-links li {
+    margin-right: 20px;
+}
+.navbar .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.holiday {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.holiday h2 {
+    color: #333;
+    margin-bottom: 5px;
+}
+.holiday p {
+    color: #666;
+    margin-bottom: 20px;
+}
+.div button{
+    background-color: yellow;
+    border: 10px;
+    border-radius: 5px;
+    padding: 8x 10px;
+    align-content: center;
+    justify-content: center;
+    
+}
+.div button:hover{
+    background-color: whitesmoke;
+    
+}
+.div button a{
+    text-decoration: none;
+    color: black; font-size: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.navbar button{
+    background-color: yellow;
+    border: 10px;
+    border-radius: 5px;
+    padding: 8x 10px;
+    align-content: center;
+    justify-content: center;
+
+}
+.navbar button:hover{
+    background-color: whitesmoke;
+}
+.navbar button a{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+}
+.container .box img{
+    display: flex;
+    align-items: center;
+    height: 250px;
+    justify-content: center;
+}
+.box{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container .box p{
+    border-radius: 20px;
+}
+.container .high img{
+    height: 255px;
+}
+.container .high p{
+    border-radius: 20px;;
+}
+.container .class img{
+    height: 260px;
+    display: flex;
+    justify-content: center;
+}
+.container .class p{
+    border-radius: 20px;
+}
+.container .row  button{
+    background-color: yellow;
+    border: 10px;
+    border-radius: 5px;
+    padding: 8x 10px;
+    align-content: center;
+    justify-content: center;
+}
+.container .row button:hover{
+    background-color: whitesmoke;
+}
+.container .row button a{
+    text-decoration: none;
+}
+.container .high button{
+    background-color: yellow;
+    border: 10px;
+    border-radius: 5px;
+    padding: 8x 10px;
+    align-content: center;
+    justify-content: center;
+}
+.container .high button:hover{
+    background-color: whitesmoke;
+}
+.container .high button a{
+    text-decoration: none;
+}
